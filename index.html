@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Currency Converter</h2>
+  <form action="">
+
+      <input type="text" value="1" name="amount" id="amount" placeholder="Amount">
+
+      <div class="inputContainer">
+        <label for="From">From <img id="fromFlag" src="https://flagsapi.com/US/flat/64.png" alt="notfound"></label>
+        <select name="From" id="From">
+        </select>
+      </div>
+
+      <div class="change"><i class="fa-solid fa-arrow-up"></i><i class="fa-solid fa-arrow-down"></i></div>
+      
+      <div class="inputContainer">
+        <label for="To">To <img id="toFlag" src="https://flagsapi.com/IN/flat/64.png" alt="notfound"></label>
+        <select name="To" id="To">
+        </select>
+      </div>
+
+      <div class="outputContainer">
+         <h5>Convertion Rate</h5>
+         <div class="rate">0.00</div>
+        </select>
+      </div>
+
+      <button type="submit" id="submit">Convert</button>
+    </form>
+    <!-- <script src="code.js"></script> -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
